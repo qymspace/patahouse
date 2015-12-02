@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.patahouse"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.patahouse.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.patahouse.BuildingRegistration" >
+            <action android:name="android.intent.action.BUILDINGREGISTRATIONACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.patahouse.BuildingUpdate" >
+            <action android:name="android.intent.action.BUILDINGUPDATEACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.patahouse.RoomRegistration" >
+            <action android:name="android.intent.action.ROOMREGISTRATIONACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.patahouse.RoomUpdate" >
+            <action android:name="android.intent.action.ROOMUPDATEACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.patahouse.RegisteredHouses" >
+            <action android:name="android.intent.action.REGISTEREDHOUSESACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.patahouse.AreaCoverage" >
+            <action android:name="android.intent.action.AREACOVERAGEACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name="com.patahouse.RegistrationExtras" >
+            <intent-filter>
+                <action android:name="android.intent.action.REGISTRATIONEXTRAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.patahouse.NetworkHelpTest" />
+
+        <service android:name="com.patahouse.GPSLocation" />
+    </application>
+
+</manifest>

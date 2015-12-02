@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PataHouse</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="new_building_button">New</string>
+    <string name="update_building_button">Update</string>
+    <string name="new_room_button">New</string>
+    <string name="update_room_button">Update</string>
+    <string name="show_all_buildings_button">All Buildings</string>
+    <string name="regions_covered_button">Coverage</string>
+    <string name="registered_text_button">Registered Rooms and Counting</string>
+
+</resources>

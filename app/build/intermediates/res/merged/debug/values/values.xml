@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/qymspace/AndroidStudioProjects/PataHouse/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/qymspace/AndroidStudioProjects/PataHouse/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">PataHouse</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="new_building_button">New</string>
+    <string name="new_room_button">New</string>
+    <string name="regions_covered_button">Coverage</string>
+    <string name="registered_text_button">Registered Rooms and Counting</string>
+    <string name="show_all_buildings_button">All Buildings</string>
+    <string name="update_building_button">Update</string>
+    <string name="update_room_button">Update</string>
+    <!-- From: file:/C:/Users/qymspace/AndroidStudioProjects/PataHouse/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

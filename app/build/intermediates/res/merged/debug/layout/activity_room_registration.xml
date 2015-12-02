@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/queryLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CurrentBuildingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="000: Current Building"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="23dp"
+            android:padding="5dp"
+            
+            android:textStyle="bold"
+            
+             />
+
+            <EditText
+                android:id="@+id/queryEditText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Room Query String"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp" >
+                <requestFocus android:layout_width="wrap_content" />
+            </EditText>
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/queryEditText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Room Query String"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp" >
+            </EditText>
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/queryEditText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Room Query String"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp" >
+            </EditText>
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/equeryEditText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Room Query String"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp" >
+            </EditText>
+    </LinearLayout>
+    <GridView
+        android:layout_below="@+id/registerAllButton"
+        android:tag="Griddddd"
+    android:id="@+id/roomGridview"
+    android:layout_marginTop="150dp"
+    android:layout_marginBottom="70dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="50dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    
+/>
+
+    <Button
+        android:id="@+id/registerAllButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/queryLinearLayout"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="19dp"
+        android:text="Register All" 
+        android:onClick="registerRooms"
+        android:tag="registerAll"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/qymspace/AndroidStudioProjects/PataHouse/app/src/main/res/layout/activity_room_registration.xml -->
